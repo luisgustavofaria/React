@@ -1,8 +1,12 @@
-function Title () {
+import styles from '../title/Title.module.css'
+
+
+
+function Title (props) {
     return (
-        <h1>
-            TITULO
-        </h1>
+        <h1 className={styles.title}>
+        {props.children}
+     </h1>
     )
 }
 
