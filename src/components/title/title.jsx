@@ -1,6 +1,6 @@
 import styles from '../title/Title.module.css'
 
-
+//exemplo de componente react com children (filho)
 
 function Title (props) {
     return (
