@@ -18,7 +18,7 @@ function Header ({children, image}) {
     )
 }
 
-Header.defautProps = {
+Header.defaultProps = {
     image: 'https://sejadev-web-app-public-files.s3.amazonaws.com/courses/coffee1.jpg'
 }
 
